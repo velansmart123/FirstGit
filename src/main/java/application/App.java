@@ -20,6 +20,7 @@ public class App {
 		Transaction t = s.beginTransaction();
 //		s.persist(st.insert());
 		t.commit();
+		System.out.println("Final Line of the Code");
 	}
 
 }
