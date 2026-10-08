@@ -20,8 +20,8 @@ public class App {
 		Transaction t = s.beginTransaction();
 //		s.persist(st.insert());
 		t.commit();
-		
 		System.out.println("This is the Change in the Project");
+		System.out.println("Final Line of the Code");
 	}
 
 }
